@@ -11,11 +11,17 @@
 <body>
     <section class="pagina-login">
         <div class="login">
-            <form action="" class="form-login">
+            <form class="form-login">
+
+                <div class="campo-input">
+                <input type="text" name="usuario" id="usuario" required>
                 <label for="usuario">Usuário</label>
-                <input type="text" name="usuario" id="usuario">
+            </div>
+
+            <div class="campo-input">
+                <input type="passoword" name="senha" id="senha" required>
                 <label for="senha">Senha</label>
-                <input type="passoword" name="senha" id="senha">
+            </div>
 
                 <button id="btnLogin" type="submit">Validar</button>
                 <a href="esqueci.html">Esqueci a Senha</a>

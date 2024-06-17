@@ -1,3 +1,9 @@
-.pagina.login{
-    background-color: rgb(193, 223, 213);
-}
+
+ :root{
+   --fundoLogin: rgb(100, 25, 94);
+   --corFonteLogin:rgb(228, 217, 227);
+    --btnSistema: rgb(100, 25, 94);
+    --corFonteBotao: rgb(100, 25, 94);
+    --corbtnsistemaHover: rgb(100, 25, 94);
+    --corFonteBotaoHover: rgb(100, 25, 94);
+ }
